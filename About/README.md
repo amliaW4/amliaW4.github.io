@@ -1,10 +1,9 @@
 <img id="img" src="img/1.jpg" align="center"/>
+
 <script>
 	var unm = Math.round(Math.random()*10);
 	document.getElementById("img").src="img/"+unm+".jpg";
 </script>
-
-
 
 About:
 
@@ -14,7 +13,7 @@ About:
 
 <!--陪同在泰戈尔身边的人，是当时最卓越的一群人，这些人站在那里，自信而笃定，那种从容让我十分羡慕。-->
 
-
+<!--顺，不妄喜；逆，不惶馁；安，不奢逸；危，不惊惧；胸有惊雷而面如平湖者可拜上将军军。-->
 
 有问题欢迎斧正：[issues](https://github.com/amliaW4/amliaW4.github.io/issues)
 
