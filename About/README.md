@@ -1,4 +1,4 @@
-<img id="img" src="img/1.jpg" align="center"/>
+﻿<img id="img" src="img/1.jpg" align="center"/>
 
 <script>
 	var unm = Math.round(Math.random()*10);
@@ -25,6 +25,8 @@ About:
 	只有不断系统地增加知识广度，才可能发现其他人无法看到的目标。而当此目标很少有人理解时，潜在回报才可能非常大。欲穷千里目，更上一层楼。不畏浮云遮望眼，只缘身在最高层。
 	人和人之间是有认知鸿沟的，而认知鸿沟如天堑，实难跨越。5%的认知差别在十年后，两个人的成就差异可能超过一千倍。
 -->
+
+<!--静水流深-->
 
 有问题欢迎斧正：[issues](https://github.com/amliaW4/amliaW4.github.io/issues)
 
