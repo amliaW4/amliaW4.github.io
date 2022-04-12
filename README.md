@@ -1,7 +1,3 @@
 ﻿[About](About)
 
-|  Time  | Title                          | Tag   |
-| :----: | :----------------------------- | ----- |
-| 20191023 | [hello](Page/hello) | Hello |
-
-
+[Amazing Grace](https://www.bilibili.com/video/BV1CW411T7jW?share_source=copy_web)
