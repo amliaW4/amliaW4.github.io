@@ -20,7 +20,7 @@ Ring3 程序调用 kernel32.dll 导出的 DeviceIoControl 函数后，会调用�
 NtDeviceIoControlFile 函数，进而调用到系统内核模块提供的服务函数 NtDeviceIo ControlFile，
 该函数会将 I/O 请求转化为 IRP 包，并发送到对应驱动的派遣例程函数中。
 
-![img-0](0day2小记/img-0.png)
+![img-0](img-0.png)
 
 
 
