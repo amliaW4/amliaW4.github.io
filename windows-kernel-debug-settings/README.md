@@ -48,7 +48,7 @@ serial0.pipe.endPoint = "server"
 
 可以看到调试机COM端口为 COM2
 
-![img-1](windows-kernel-debug-settings/img-1.png)
+![img-1](img-1.png)
 
 右键属性->端口设置，波特率改成115200 ， **两台虚拟机都需要修改，xp 需要修改 boot.ini 文件**
 
