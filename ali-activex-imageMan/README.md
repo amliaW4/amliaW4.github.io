@@ -1,12 +1,10 @@
----
+
 title: 阿里旺旺ActiveX控件imageMan.dll栈溢出
+
 date: 2018-04-29 15:47:41
+
 categories:
-tags:
-	- 《漏洞战争》
-
----
-
+- 《漏洞战争》
 
 
 ## 环境
@@ -63,9 +61,9 @@ ActiveX组件中调用函数的机制叫做分发。com组件在调用某个函�
 2. Ctrl+N 找到函数 DispCallFunc 双击进入
 3. 首个 CALL ECX 下断点。
 
-![img-2](ali-activex-imageMan/img-2.png)
+![img-2](img-2.png)
 
-进入函数分析可以翻下， 函数申请了0x31空间![img-3](ali-activex-imageMan/img-3.png)
+进入函数分析可以翻下， 函数申请了0x31空间![img-3](img-3.png)
 
 调试发现eax返回  0 。
 
@@ -82,16 +80,6 @@ ActiveX组件中调用函数的机制叫做分发。com组件在调用某个函�
 因为复制的SIZE非常大，覆盖到了只读区域，出现异常，执行到0x0d0d0d0d 处的shellcode 。
 
 但是不知道为什么，我这里一直不弹框。
-
-
-
-
-
-
-
-
-
-
 
 
 

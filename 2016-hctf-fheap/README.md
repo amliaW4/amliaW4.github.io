@@ -1,13 +1,12 @@
----
-title: 2016 HCTF fheap (UAF方法)
-date: 2018-04-02 08:57:14
-categories: 
-	
-tags:
-	- CTF
-	- Use-After-Free
 
----
+title: 2016 HCTF fheap (UAF方法)
+
+date: 2018-04-02 08:57:14
+
+categories: 
+- CTF
+- Use-After-Free
+
 
 
 
@@ -35,7 +34,7 @@ $ checksec pwn-f
 
    执行 *chunk+3 保存函数
 
-![img](2016-hctf-fheap/img-1.png)
+![img](img-1.png)
 
 
 
@@ -47,7 +46,7 @@ $ checksec pwn-f
 
 此时fastbin中空堆块的单链表结构如下左图，紧接着再申请一个字符串长度为0x20的字符串，此时，申请出来的堆中的数据会如下右图，此时后面申请出来的堆块与之前申请出来的1号堆块为同一内存空间，这时候输入的数据就能覆盖到1号堆块中的free_func指针，指向我们需要执行的函数，随后再调用1号堆块的free_func函数，即实现了劫持函数流的目的。
 
-![img](2016-hctf-fheap/img-2.png)
+![img](img-2.png)
 
 
 
@@ -99,7 +98,7 @@ $ checksec pwn-f
 
 64位的格式化字符串 [参见这篇博客](http://blog.csdn.net/qq_31481187/article/details/72510875) 
 
-![img](2016-hctf-fheap/img-4.png)
+![img](img-4.png)
 
 ```
 执行 call eax 即 printf 时候，ebp = rsp ， 
@@ -153,7 +152,7 @@ def leak(addr):
 
 ## 利用
 
-[hctf2016-fheap-master.zip](2016-HCTF-fheap/hctf2016-fheap-master.zip)
+[hctf2016-fheap-master.zip](hctf2016-fheap-master.zip)
 
 ```python
 #coding=utf8

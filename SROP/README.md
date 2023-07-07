@@ -1,11 +1,11 @@
----
+
 title: SROP
+
 date: 2018-02-21 19:58:12
+
 categories: 
-tags: 
-	- CTF
-	- SROP
----
+- CTF
+- SROP
 
 
 SROP全称为 Sigreturn Oriented Programming ，表明利用sigreturn这个函数实现ROP的技术。

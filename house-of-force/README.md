@@ -1,12 +1,12 @@
----
-title: House Of Force
-date: 2018-04-16 11:07:54
-categories:
-tags:
-	- CTF
-	- House Of Force
 
----
+title: House Of Force
+
+date: 2018-04-16 11:07:54
+
+categories:
+- CTF
+- House Of Force
+
 
 ## 原理
 

@@ -1,11 +1,10 @@
----
-title: malloc_consolidate() 函数作用
-date: 2018-04-15 08:33:05
-categories:
-tags:
-	- malloc_consolidate()
----
 
+title: malloc_consolidate() 函数作用
+
+date: 2018-04-15 08:33:05
+
+categories:
+- malloc_consolidate()
 
 
 ## 分析

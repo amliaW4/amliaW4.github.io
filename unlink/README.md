@@ -1,12 +1,11 @@
----
-title: unlink
-date: 2018-03-28 11:02:32
-categories: 
-tags: 
-	- CTF
-	- unlink
----
 
+title: unlink
+
+date: 2018-03-28 11:02:32
+
+categories: 
+- CTF
+- unlink
 
 
 ## 0x00 前言
@@ -27,7 +26,7 @@ tags:
 
 unlink 是把一个双向链表中的空闲块拿出来，然后和目前物理相邻的 free chunk 进行合并。(图来源自ctfwiki)
 
-![img-1](unlink/img-1.png)
+![img-1](img-1.png)
 
 ```c
 // unlink 过程
@@ -97,7 +96,7 @@ p->bk = &ptr - 0x10
 
 
 
-![img-2](unlink/img-2.png)
+![img-2](img-2.png)
 
 
 
@@ -129,7 +128,7 @@ p->bk = &except value - 0x10
 
 ## 0x04 利用
 
-[文件下载](unlink/heap_pwn_study-master.zip)  (下载链接中删掉一个unlink) 
+[文件下载](heap_pwn_study-master.zip)  (下载链接中删掉一个unlink) 
 
 **利用条件：**
 

@@ -1,12 +1,11 @@
----
 
 title: 数据与程序的分水岭:DEP
-date: 2018-03-16
-categories: 
-tags:
-	- 《0day2》
 
----
+date: 2018-03-16
+
+categories: 
+- 《0day2》
+
 
 # 0x00 DEP 基址保护原理
 

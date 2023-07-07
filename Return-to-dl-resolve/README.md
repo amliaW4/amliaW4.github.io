@@ -1,11 +1,12 @@
----
+
 title: Return-to-dl-resolve
+
 date: 2018-02-21 20:06:58
+
 categories:
-tags:
-	- CTF
-	- Return-to-dl-resolve
----
+- CTF
+- Return-to-dl-resolve
+
 
 本文介绍通过return-to-dl-resolve的手法绕过NX和ASLR的限制。
 

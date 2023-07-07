@@ -1,13 +1,13 @@
----
+
 title: ssp leak
+
 comments: true
+
 date: 2018-08-22 10:20:02
 categories:
-tags:
-	- CTF
-	- ssp leak
-	
----
+- CTF
+- ssp leak
+
 
 ## 什么是ssp leak （ Stack Smashes Protect leak）
 

@@ -1,19 +1,18 @@
----
-title: suctf-2018-note
-date: 2018-06-23 20:09:43
-categories:
-tags:
-	- CTF
-	- malloc-hook
----
 
+title: suctf-2018-note
+
+date: 2018-06-23 20:09:43
+
+categories:
+- CTF
+- malloc-hook
 
 
 ## 检测开启保护
 
-[题目下载](suctf-2018-note/note.zip)
+[题目下载](note.zip)
 
-![img-1](suctf-2018-note/img-1.png)
+![img-1](img-1.png)
 
 
 
@@ -21,9 +20,9 @@ tags:
 
 可以发现add功能中有明显的溢出， box功能可以free chunk ， 然后会被合并到
 
-![img-2](suctf-2018-note/img-2.png)
+![img-2](img-2.png)
 
-![img-3](suctf-2018-note/img-3.png)
+![img-3](img-3.png)
 
 
 

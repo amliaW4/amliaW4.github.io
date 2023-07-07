@@ -1,15 +1,12 @@
----
+
 title: 2017-0ctf-babyheap (Arbitrary Alloc)
+
 date: 2018-04-09 21:24:40
+
 categories:
-	
-tags:
-	- CTF
-	- Arbitrary-Alloc
+- CTF
+- Arbitrary-Alloc
 
----
-
-[TOC]
 
 ## 基本信息
 

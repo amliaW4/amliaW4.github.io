@@ -1,13 +1,13 @@
----
-title: 2018网鼎杯guess (ssp leak)
-comments: true
-date: 2018-08-22 08:13:34
-categories:
-tags:
-	- CTF
-	- ssp leak
----
 
+title: 2018网鼎杯guess (ssp leak)
+
+comments: true
+
+date: 2018-08-22 08:13:34
+
+categories:
+- CTF
+- ssp leak
 
 
 [题目下载](GUESS_3761eaaa3eb6e09db4eecc56b64f32e3.zip)
@@ -16,7 +16,7 @@ tags:
 
 ## 分析题目
 
- ![img-1](2018网鼎杯guess-ssp-leak/img-1.png)
+ ![img-1](img-1.png)
 
 
 

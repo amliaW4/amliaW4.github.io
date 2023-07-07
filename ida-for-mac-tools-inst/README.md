@@ -1,12 +1,11 @@
----
-title: IDA 常用工具安装 (更新中)
-date: 2018-03-21 14:39:16
-categories:
-tags:
-	- tools
-	- IDA
----
 
+title: IDA 常用工具安装 (更新中)
+
+date: 2018-03-21 14:39:16
+
+categories:
+- tools
+- IDA
 
 
 Mac 下常用 IDA pro 7.0 插件的安装配置。

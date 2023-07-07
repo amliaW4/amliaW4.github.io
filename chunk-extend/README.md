@@ -1,13 +1,11 @@
----
+
 title: Chunk Extend
+
 date: 2018-04-11 17:35:45
+
 categories:
-tags:
-	- CTF
-	- Chunk-Extend
-
----
-
+- CTF
+- Chunk-Extend
 
 
 chunk extend/shrink 是堆漏洞的一种常见的利用手法，与其他堆漏洞的利用相同，chunk extend/shrink 攻击同样需要有可以控制 malloc_chunk 的漏洞。这种利用方法需要以下的先决条件：
@@ -191,5 +189,5 @@ delete(0)
 r.interactive()
 ```
 
-![1](chunk-extend/1.png)
+![1](1.png)
 

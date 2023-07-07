@@ -1,11 +1,11 @@
----
+
 title: IDA ImportError
+
 date: 2018-03-21 14:12:59
+
 categories: 
-tags:
-	- tools
-	- IDA
----
+- tools
+- IDA
 
 今天安装 findcrypt3 时候 出现 ImportError 。
 

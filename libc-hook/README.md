@@ -1,10 +1,10 @@
----
+
 title: libc中的hook机制
+
 date: 2018-04-09 21:08:36
+
 categories:
-tags:
-	- hook
----
+- hook
 
 
 
@@ -38,7 +38,7 @@ http://www.gnu.org/software/libc/manual/html_node/Hooks-for-Malloc.html
 
 **要写入hook的后面八个字节(蓝框)**
 
-![img-1](libc-hook/img-1.png)
+![img-1](img-1.png)
 
 ## 参考
 

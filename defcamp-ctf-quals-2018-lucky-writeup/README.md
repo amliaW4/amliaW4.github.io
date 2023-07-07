@@ -1,13 +1,11 @@
----
+
 title: Defcamp-CTF-Quals-2018 Lucky writeup
+
 date: 2018-09-24 21:01:47
+
 categories:
-tags:
-	- CTF
-	- 栈溢出
----
-
-
+- CTF
+- 栈溢出
 
 [题目](lucky)
 
